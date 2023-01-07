@@ -38,7 +38,7 @@ The `TOKEN_URI` must point to a file with the following format:
 {
   "name": "TOMATO",
   "symbol": "TMT",
-  "description": MEME TOKEN",
+  "description": "MEME TOKEN",
   "image": "https://raw.githubusercontent.com/tomatosolana/asset/main/tomatosolana.png"
 }
 ```
