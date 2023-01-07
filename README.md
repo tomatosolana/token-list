@@ -22,9 +22,9 @@ The token metadata for Metaplex Metadata Schema is in the following format:
 
 ```json
 {
-  "name": "TOKEN_NAME", 
-  "symbol": "TOKEN_SYMBOL",
-  "uri": "TOKEN_URI",
+  "name": "TOMATO", 
+  "symbol": "TMT",
+  "uri": "https://snyumdft3iczpxohwciqi4id2qfmsjg5qozg4csuudsik2srsn6a.arweave.net/k3FGDLPaBZfdx7CRBHED1ArJJN2Dsm4KVKDkhWpRk3w",
   "sellerFeeBasisPoints": 0,
   "creators": null,
   "collection": null,
@@ -36,10 +36,10 @@ The `TOKEN_URI` must point to a file with the following format:
 
 ```json
 {
-  "name": "TOKEN_NAME",
-  "symbol": "TOKEN_SYMBOL",
-  "description": "TOKEN_DESC",
-  "image": "TOKEN_IMAGE_URL"
+  "name": "TOMATO",
+  "symbol": "TMT",
+  "description": MEME TOKEN",
+  "image": "https://raw.githubusercontent.com/tomatosolana/asset/main/tomatosolana.png"
 }
 ```
 
@@ -51,10 +51,10 @@ Which resolves to:
 
 ```json
 {
-  "name": "A test token",
-  "symbol": "TEST",
-  "description": "Fully for testing purposes only",
-  "image": "https://token-creator-lac.vercel.app/token_image.png"
+  "name": "TOMATO",
+  "symbol": "TMT",
+  "description": "MEME TOKEN",
+  "image": "https://raw.githubusercontent.com/tomatosolana/asset/main/tomatosolana.png"
 }
 ```
 
